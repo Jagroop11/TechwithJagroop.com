@@ -365,6 +365,49 @@ nav {
     color: var(--text-secondary);
 }
 
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.infoo-card {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 50px;
+    border: 1px solid var(--border);
+    transition: all 0.3s;
+}
+
+.infoo-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border-color: var(--accent);
+}
+
+.infoo-card h3 {
+    color: var(--accent);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.infoo-item {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.infoo-label {
+    font-weight: 600;
+    color: var(--text-primary);
+    min-width: 120px;
+}
+
+.infoo-value {
+    color: var(--text-secondary);
+}
+
 /* Projects Section */
 .projects {
     max-width: 1200px;
@@ -533,4 +576,5 @@ footer {
         height: 300px;
         font-size: 4rem;
     }
+
 }
