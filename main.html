@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jagroop Singh - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="bg-animation">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">JS</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Jagroop Singh</h1>
+            <p class="subtitle">Software developer </p>
+            <p>Passionate developer with a B.Tech in Computer Science and Engineering from Punjab Technical University. I love building innovative solutions and bringing ideas to life through code.</p>
+
+            <div class="social-links">
+                <a href="tel:+91-7009882461" title="Phone">📞</a>
+                <a href="mailto:jagroop@example.com" title="Email"><i class="fas fa-envelope"></i> </a>
+                <a href="https://github.com/jagroop11" target="_blank" title="GitHub"> <i class="fab fa-github"></i></a>
+                <a href="https://instagram.com/jagroops011" target="_blank" title="Instagram"> <i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com/in/jagroop-singh-911375217" target="_blank" title="LinkedIn"> <i class="fab fa-linkedin"></i></a>
+            </div>
+
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+
+        <div class="hero-image">
+            <!-- Replace emoji with your actual photo -->
+            <img src="images/profile.jpg.jpeg" class="profile-img" alt="Jagroop Singh">
+            <!-- If no image yet, use: <div class="profile-img-placeholder">👨‍💻</div> -->
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="info-card">
+                <h3>Personal Info</h3>
+                <div class="info-item">
+                    <span class="info-label">Name:</span>
+                    <span class="info-value">Jagroop Singh</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Age:</span>
+                    <span class="info-value">24 Years</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Location:</span>
+                    <span class="info-value">Punjab, India</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Phone:</span>
+                    <span class="info-value">+91 70098-82461</span>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <h3>Education</h3>
+                <div class="info-item">
+                    <span class="info-label">Degree:</span>
+                    <span class="info-value">B.Tech</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Major:</span>
+                    <span class="info-value">Computer Science & Engineering</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">University:</span>
+                    <span class="info-value">Punjab Technical University</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Status:</span>
+                    <span class="info-value">Graduate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+     <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img">🚀</div>
+                <div class="project-content">
+                    <h3>Project Name 1</h3>
+                    <p>Description of your amazing project goes here. What problem does it solve?</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">💡</div>
+                <div class="project-content">
+                    <h3>Project Name 2</h3>
+                    <p>Another innovative solution you've built. Highlight the key features!</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">🎯</div>
+                <div class="project-content">
+                    <h3>Project Name 3</h3>
+                    <p>Showcase your best work here with a brief description of the impact.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <p style="color: var(--text-secondary); margin-bottom: 2rem;">Feel free to reach out for collaborations or just a friendly chat!</p>
+
+        <div class="contact-info">
+            <a href="tel:+917009882461" class="contact-item">
+                <span class="contact-icon">📞</span>
+                <span>+91 7009882461</span>
+            </a>
+            <a href="mailto:jagroop12301@gmail.com" class="contact-item">
+                <span class="contact-icon">✉️</span>
+                <span>jagroop12301@gmail.com</span>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jagroop Singh. Built with passion and code ❤️</p>
+          <div class="social-links">
+                <a href="mailto:jagroop12301@gmail.com" title="Email"><i class="fas fa-envelope"></i> </a>
+                <a href="https://github.com/jagroop11" target="_blank" title="GitHub"> <i class="fab fa-github"></i></a>
+                <a href="https://instagram.com/jagroops011" target="_blank" title="Instagram"> <i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com/in/jagroop-singh-911375217" target="_blank" title="LinkedIn"> <i class="fab fa-linkedin"></i></a>
+            </div>
+
+    </footer>
+
+    <script src="data/projects.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
