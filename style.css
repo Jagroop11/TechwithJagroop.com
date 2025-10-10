@@ -370,7 +370,7 @@ nav {
 .infoo-card {
     background: var(--card-bg);
     padding: 2rem;
-    border-radius: 100px;
+    border-radius: 20px;
     border: 1px solid var(--border);
     transition: all 0.3s;
 }
@@ -573,5 +573,6 @@ footer {
     }
 
 }
+
 
 
